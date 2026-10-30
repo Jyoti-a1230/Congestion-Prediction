@@ -1,0 +1,30 @@
+# data and model files stay out of git (too large; see data/README.md)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.odb
+*.gds
+
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# secrets and local files
+.env
+*.key
+.DS_Store

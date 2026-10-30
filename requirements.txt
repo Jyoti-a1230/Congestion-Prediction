@@ -1,0 +1,12 @@
+# Core analysis and modeling. Unpinned for now; run `pip freeze > requirements-lock.txt`
+# once the results are final, so the exact versions are recorded.
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+torch          # on a laptop use the CPU build; on Colab it is preinstalled
+tqdm
+pyyaml
+jupyter
